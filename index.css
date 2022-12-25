@@ -63,4 +63,18 @@ html .contenedor .cards .card3 {
 }
 html .contenedor .cards .card4 {
   border-color: #599ae3;
+}
+@media (min-width: 720px) {
+  html .contenedor .texto {
+    margin: 0 30%;
+  }
+  html .contenedor .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  html .contenedor .cards .card {
+    max-width: 350px;
+  }
 }/*# sourceMappingURL=index.css.map */
