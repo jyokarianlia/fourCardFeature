@@ -1,5 +1,66 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 html {
   font-size: 15px;
   font-family: "Poppins", sans-serif;
+  background-color: hsl(0deg, 0%, 98%);
+}
+html .contenedor {
+  width: 100vw;
+  height: 100vh;
+  padding: 6rem 2.5rem;
+  overflow-y: scroll;
+}
+html .contenedor .texto {
+  color: hsl(229deg, 6%, 66%);
+  text-align: center;
+}
+html .contenedor .texto h2 {
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: hsl(234deg, 12%, 34%);
+}
+html .contenedor .texto .titulo1 {
+  font-weight: 200;
+}
+html .contenedor .texto p {
+  margin-top: 1.3rem;
+  margin-bottom: 6rem;
+}
+html .contenedor .cards .card {
+  background-color: white;
+  border-radius: 0.4rem;
+  border-top: 4px solid;
+  box-shadow: 0px 3px 1rem hsl(229deg, 6%, 66%);
+  margin-top: 2rem;
+  padding: 1.4rem;
+  color: hsl(234deg, 12%, 34%);
+  font-weight: 600;
+}
+html .contenedor .cards .card p {
+  margin-top: 1rem;
+  color: hsl(229deg, 6%, 66%);
+  font-weight: 400;
+  line-height: 2rem;
+}
+html .contenedor .cards .card img {
+  margin-top: 2rem;
+  margin: 1.5rem 0 0 70%;
+}
+html .contenedor .cards .card1 {
+  border-color: #51cbcc;
+}
+html .contenedor .cards .card2 {
+  border-color: #d75d61;
+}
+html .contenedor .cards .card3 {
+  border-color: #efae5c;
+}
+html .contenedor .cards .card4 {
+  border-color: #599ae3;
 }/*# sourceMappingURL=index.css.map */

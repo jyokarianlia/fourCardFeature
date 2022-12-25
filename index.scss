@@ -8,8 +8,70 @@ $Blue: #599ae3;
 $VeryDarkBlue: hsl(234, 12%, 34%);
 $GrayishBlue: hsl(229, 6%, 66%);
 $VeryLightGray: hsl(0, 0%, 98%);
-
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 html {
     font-size: 15px;
     font-family:  'Poppins', sans-serif;
+    background-color: $VeryLightGray;
+
+    .contenedor {
+        width: 100vw;
+        height: 100vh;
+        padding: 6rem 2.5rem;
+        overflow-y: scroll;
+        .texto {
+            color: $GrayishBlue;
+            text-align: center;
+            h2 {
+                font-weight: 600;
+                font-size: 1.6rem;
+                color: $VeryDarkBlue;
+            }
+            .titulo1 {
+                font-weight: 200;
+            }
+            p {
+                margin-top: 1.3rem;
+                margin-bottom: 6rem;
+            }
+        }
+        .cards {
+            .card{
+                background-color: white;
+                border-radius: .4rem;
+                border-top:  4px solid;
+                box-shadow: 0px 3px  1rem  $GrayishBlue;
+                margin-top: 2rem;
+                padding: 1.4rem;
+                color: $VeryDarkBlue;
+                font-weight: 600;
+                p {
+                    margin-top: 1rem;
+                    color: $GrayishBlue;
+                    font-weight: 400;
+                    line-height: 2rem;
+                }
+                img {
+                    margin-top: 2rem;
+                    margin: 1.5rem 0 0 70%;
+                }
+            }
+            .card1 {
+                border-color: $Cyan;
+            }
+            .card2 {
+                border-color: $Red;
+            }
+            .card3 {
+                border-color: $Orange;
+            }
+            .card4 {
+                border-color: $Blue;
+            }
+        }
+    }
 }
